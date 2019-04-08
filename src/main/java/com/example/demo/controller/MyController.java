@@ -11,5 +11,10 @@ public class MyController {
 	public String hello(@PathVariable("name") String name) {
 		return "Hello " + name;
 	}
+	
+	@RequestMapping(value="/demo1")
+	public String demo01() {
+		return "Demo1";
+	}
 
 }
