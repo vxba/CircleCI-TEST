@@ -16,5 +16,10 @@ public class MyController {
 	public String demo01() {
 		return "Demo1";
 	}
+	
+	@RequestMapping(value="/demo2")
+	public String demo02() {
+		return "Demo2";
+	}
 
 }
